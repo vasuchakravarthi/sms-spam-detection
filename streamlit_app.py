@@ -13,13 +13,19 @@ st.set_page_config(
 )
 
 # Download NLTK data
+# @st.cache_resource
+# def download_nltk_data():
+#     nltk.download('punkt')
+#     nltk.download('stopwords')
+#     return PorterStemmer()
 @st.cache_resource
 def download_nltk_data():
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    return PorterStemmer()
+    nltk.download('punkt', quiet=True)
+    nltk.download('stopwords', quiet=True) 
+    nltk.download('punkt_tab', quiet=True)
+    return True
 
-ps = download_nltk_data()
+download_nltk_data()
 
 def transform_text(text):
     text = text.lower()
