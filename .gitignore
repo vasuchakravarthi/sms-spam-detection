@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (if too large)
+# *.csv
+
+# Models
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
