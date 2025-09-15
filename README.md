@@ -40,5 +40,7 @@ An end-to-end machine learning project that classifies SMS messages as **spam** 
 2. Install requirements: `pip install -r requirements.txt`
 3. Run the Jupyter notebook: `jupyter notebook sms-spam-detection.ipynb`
 
+## 🌐 Live Demo
+**Try the app:** [SMS Spam Detection Demo](https://sms-spam-detection9.streamlit.app/)
 ---
 ⭐ **If this project helped you, please give it a star!** ⭐
